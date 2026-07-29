@@ -1,0 +1,16 @@
+[package]
+name = "posture-detector"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nokhwa = { version = "0.10.4", features = ["input-native"] }
+ort = { version = "2.0.0-rc.13", features = ["load-dynamic", "copy-dylibs"] }
+ndarray = "0.17.2"
+image = "0.24.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rusqlite = { version = "0.31.0", features = ["bundled"] }
+chrono = "0.4"
+notify-rust = "4.11.3"
+tray-item = { version = "0.10.0", features = ["libappindicator"] }
