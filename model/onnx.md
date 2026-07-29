@@ -1,0 +1,1 @@
+Folder Lokasi Model.onnx
