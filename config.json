@@ -1,0 +1,7 @@
+{
+  "baseline": {
+    "average_neck_angle": 14.0362425
+  },
+  "debounce_threshold_frames": 3,
+  "tolerance_angle": 15.0
+}
